@@ -1,0 +1,50 @@
+@media only screen and (max-width: 850px){
+
+    header {
+        position: relative;
+    }
+
+    header ul{
+        width: 100%;
+        background-color: black;
+        max-height: 0px;
+        overflow: hidden;
+    }
+
+    .showing {
+        max-height: 100em;
+    }
+
+    header ul li{
+        width: 100%;
+    }
+
+    header .menu-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 1.9em;
+        color: white;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2.2fr auto;
+        grid-template-areas: 
+        "main"
+        "sidebar";
+    }
+
+    header .logo{
+        margin-left: 0.8em;
+    }
+    
+
+    footer .footer-text{
+        text-align: center;
+    
+
+    }
+    
+}

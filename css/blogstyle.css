@@ -1,0 +1,93 @@
+body{
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+
+header .logo-text {
+    margin: 8px;
+    font-family: sacramento, cursive;
+}
+
+.logo-text a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo a:hover{
+    color: red;
+}
+
+
+header ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header .menu-toggle{
+    display: none;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+    background: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+.content-title-text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.grid-container{
+    display: grid;
+    margin: 10px 60px;
+    grid-template-rows: 1.7fr;
+    grid-template-columns: 1fr 1fr 1fr 280px;
+    grid-template-areas:
+    "main main main sidebar"
+    "content-1 content-1 content-1 content-1";
+    grid-gap:1rem;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 60px;;
+}
+
+.footer-text{
+    color: white;
+    padding: 20px;
+    margin-left: 1.2rem;
+    text-align: center;
+}
+

@@ -1,0 +1,20 @@
+.button{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgb(203, 0, 0);
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}

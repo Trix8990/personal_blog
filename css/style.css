@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(236, 236, 236);
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 8px;
+    font-family: sacramento, cursive;
+}
+
+.logo-text{
+    text-decoration: none;
+}
+
+.logo-text a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-text a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header .menu-toggle{
+    display: none;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li a{
+    display: block;
+    padding: 18px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover{
+    background: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+
+
+
+footer{
+    background-color: black;
+    height: 60px;
+}
+
+.footer-text{
+    color: white;
+    padding: 20px;
+    margin-left: 1.2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px){
+    header {
+        position: relative;
+    }
+
+    header ul{
+        width: 100%;
+        background-color: black;
+        max-height: 0px;
+        overflow: hidden;
+    }
+
+    .showing {
+        max-height: 100em;
+    }
+
+    header ul li{
+        width: 100%;
+    }
+
+    header .menu-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 1.9em;
+        color: white;
+    }
+
+    header .logo{
+        margin-left: 0.8em;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+        flex-wrap: wrap;
+    }
+    
+
+    footer .footer-text{
+        text-align: center;
+
+    }
+    
+}
+
